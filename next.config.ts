@@ -1,6 +1,9 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  experimental: {
+    ppr: 'incremental',
+  },
   images: {
     dangerouslyAllowSVG: true,
     remotePatterns: [
@@ -9,6 +12,9 @@ const nextConfig: NextConfig = {
         hostname: '*',
       },
     ],
+  },
+  devIndicators: {
+    position: 'bottom-left',
   },
 };
 

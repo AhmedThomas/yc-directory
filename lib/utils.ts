@@ -12,3 +12,7 @@ export function formatDate(date: string) {
     year: 'numeric',
   });
 }
+
+export function formatViews(totalViews: number) {
+  return totalViews === 1 ? 'View' : 'Views';
+}
