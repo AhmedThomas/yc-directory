@@ -1,4 +1,3 @@
-import React from 'react';
 import Ping from './ping';
 import { client } from '@/sanity/lib/client';
 import { STARTUP_VIEWS_QUERY } from '@/sanity/lib/queries';
